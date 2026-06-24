@@ -1,0 +1,32 @@
+# Vessl
+
+> Vessl is a premium car-marketplace platform, built as a white-label SaaS demo. It pairs a public storefront (inventory, interactive 3D vehicle viewer, blog, consultations and quotes) with a customer dashboard and a full RBAC admin panel, on a zero-cost backend of Firebase (Firestore + Auth) and 13 Cloudflare Workers.
+
+## About
+
+- Product: Vessl — "Your showroom, elevated."
+- Type: Premium car-marketplace platform / white-label SaaS
+- Web app: https://vessl.aoneahsan.com
+- Android: https://play.google.com/store/apps/details?id=com.aoneahsan.vessl
+- Stack: React 19, TypeScript, Vite, Tailwind v4, Radix UI, TanStack Router/Query/Table, React Hook Form + Zod, Three.js, i18next, Firebase (Firestore + Auth), Cloudflare Workers, Capacitor 8 (Android)
+- Author: Ahsan Mahmood (https://aoneahsan.com)
+
+## Documentation
+
+- [Introduction](https://vessl-docs.aoneahsan.com/): what Vessl is and how the docs are organized.
+- [Overview](https://vessl-docs.aoneahsan.com/getting-started/overview): the product surface at a glance.
+- [Tech stack](https://vessl-docs.aoneahsan.com/getting-started/tech-stack): every dependency and why it is used.
+- [Local setup](https://vessl-docs.aoneahsan.com/getting-started/local-setup): run the app locally.
+- [Marketplace](https://vessl-docs.aoneahsan.com/features/marketplace): inventory, search, categories, comparison.
+- [3D viewer](https://vessl-docs.aoneahsan.com/features/3d-viewer): Three.js GLTF vehicle viewer.
+- [Consultations & quotes](https://vessl-docs.aoneahsan.com/features/consultations-quotes): booking + quote/inquiry flows.
+- [Dashboard](https://vessl-docs.aoneahsan.com/features/dashboard): the signed-in customer area.
+- [Admin](https://vessl-docs.aoneahsan.com/features/admin): the RBAC operations console.
+- [i18n & currency](https://vessl-docs.aoneahsan.com/features/i18n-currency): translations and multi-currency pricing.
+- [Theming](https://vessl-docs.aoneahsan.com/features/theming): the user-facing theme customizer.
+- [Architecture](https://vessl-docs.aoneahsan.com/architecture/overview): how the pieces fit together.
+- [Firestore data model](https://vessl-docs.aoneahsan.com/architecture/firestore-data-model): collections and ownership.
+- [RBAC](https://vessl-docs.aoneahsan.com/architecture/rbac): roles and permissions.
+- [Workers overview](https://vessl-docs.aoneahsan.com/workers/overview): the Cloudflare Workers backend.
+- [Workers reference](https://vessl-docs.aoneahsan.com/workers/reference): each worker and its endpoints.
+- [Deployment](https://vessl-docs.aoneahsan.com/deployment/web-hosting): how to ship web, workers, and Android.

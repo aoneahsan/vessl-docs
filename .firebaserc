@@ -1,0 +1,12 @@
+{
+  "projects": {
+    "default": "vessl-aoneahsan"
+  },
+  "targets": {
+    "vessl-aoneahsan": {
+      "hosting": {
+        "vessl-docs": ["vessl-docs"]
+      }
+    }
+  }
+}

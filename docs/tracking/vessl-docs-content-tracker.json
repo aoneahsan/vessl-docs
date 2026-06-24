@@ -1,0 +1,44 @@
+{
+  "$schema": "vessl-docs-seo-content-tracker",
+  "description": "Per-page rich SEO/AEO content enrichment progress for the Vessl docs site. Resumable across sessions. Each batch deepens pages to the per-page-uniqueness floor (definition-first intro, use cases, how-it-works, examples, 5-8 FAQ, tips, distinct title/meta, lastUpdated).",
+  "project": "vessl-docs",
+  "createdAt": "2026-06-24",
+  "lastUpdated": "2026-06-24",
+  "expert": "Ahsan Mahmood",
+  "batchSize": 15,
+  "wordsPerPageTarget": "1000-1200",
+  "totalPages": 18,
+  "enrichedPages": 18,
+  "remainingPages": 0,
+  "seoFloor": {
+    "robotsAiAllowlist": true,
+    "sitemapXml": "emitted on every docusaurus build",
+    "llmsTxt": true,
+    "jsonLd": ["WebSite", "Organization", "SoftwareApplication"],
+    "perPageMetaOg": true,
+    "definitionFirstIntros": true,
+    "faqPerPage": "most feature/architecture/workers pages carry an FAQ block"
+  },
+  "categoryProgress": {
+    "intro": { "total": 1, "enriched": 1, "remaining": 0 },
+    "getting-started": { "total": 3, "enriched": 3, "remaining": 0 },
+    "features": { "total": 7, "enriched": 7, "remaining": 0 },
+    "architecture": { "total": 3, "enriched": 3, "remaining": 0 },
+    "workers": { "total": 2, "enriched": 2, "remaining": 0 },
+    "deployment": { "total": 3, "enriched": 3, "remaining": 0 }
+  },
+  "batches": [
+    {
+      "id": "batch-01",
+      "date": "2026-06-24",
+      "status": "complete",
+      "category": "all",
+      "notes": "Initial scaffold: all 18 pages authored from the real app code with definition-first intros, FAQ blocks on feature/architecture/workers pages, distinct titles + meta descriptions, and honest framing (limits called out: iOS not built, calendar/email gated on secrets, graceful degradation when Workers absent)."
+    }
+  ],
+  "nextBatchSuggestion": {
+    "id": "batch-02",
+    "rationale": "Site is complete at launch depth. Future enrichment: expand each Worker into its own page with request/response examples if the API surface grows; add per-feature how-to walkthroughs; refresh lastUpdated quarterly.",
+    "candidatePages": ["workers/reference -> split per-worker pages", "features/* -> add step-by-step how-to"]
+  }
+}
