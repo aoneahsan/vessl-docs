@@ -18,3 +18,10 @@ yarn-error.log*
 # Other package managers (only yarn.lock is authoritative)
 package-lock.json
 pnpm-lock.yaml
+
+# machine-local caches (auto-added)
+.firebase/
+.yarn/install-state.gz
+.yarn/cache/
+**/.yarn/install-state.gz
+**/.yarn/cache/
